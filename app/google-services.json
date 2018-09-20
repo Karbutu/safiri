@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144391965644",
+    "firebase_url": "https://safiri-25859.firebaseio.com",
+    "project_id": "safiri-25859",
+    "storage_bucket": "safiri-25859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144391965644:android:0bcb41b53f733faf",
+        "android_client_info": {
+          "package_name": "com.example.user.safiri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144391965644-68ti530dkoilkgo5ncrmfdo7na62rfat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.safiri",
+            "certificate_hash": "6cc1635827578803dd6f8734280ba6173715431c"
+          }
+        },
+        {
+          "client_id": "144391965644-us6m04gmma9vgiulk8nla5s8cs5fcjja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAccIFKbVopXdls7pCuIXHYzyTLY50jxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144391965644-us6m04gmma9vgiulk8nla5s8cs5fcjja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
