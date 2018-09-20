@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,7 +40,7 @@ public class SliderAdapter extends PagerAdapter {
 
     public String[] slide_descs = {
 
-            "Please login to access your driving license details" +
+            "Please login to access your driving license details",
                     "Kindly login to scan driving license"
     };
 
@@ -62,6 +63,8 @@ public class SliderAdapter extends PagerAdapter {
         ImageView slideImageView = ( ImageView ) view.findViewById(R.id.slide_image);
         TextView slideHeading = ( TextView ) view.findViewById(R.id.slide_heading);
         TextView slideDescription = ( TextView ) view.findViewById(R.id.slide_desc);
+
+        Log.e("Position", String.valueOf(position));
 
         slideImageView.setImageResource(slide_images[position]);
         slideHeading.setText(slide_headings[position]);
